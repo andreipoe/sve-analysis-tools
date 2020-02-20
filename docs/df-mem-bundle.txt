@@ -1,0 +1,11 @@
+In [9]: bundle[bundle.application.str.contains('bude')]
+Out[9]:
+   active-bits num-accesses  pct-accesses  version application  svewidth            timestamp
+0          128     31321088         100.0  arm19.2    bude-sve       128  2019-07-29_11-27-28
+1          128     31316992         100.0   gcc8.2    bude-sve       128  2019-07-29_11-27-28
+2          256     15660544         100.0  arm19.2    bude-sve       256  2019-07-29_11-30-50
+3          256     15658496         100.0   gcc8.2    bude-sve       256  2019-07-29_11-30-50
+4          512      7830272         100.0  arm19.2    bude-sve       512  2019-07-29_11-33-02
+5          512      7829248         100.0   gcc8.2    bude-sve       512  2019-07-29_11-33-02
+6          512      7830272         100.0  arm19.2    bude-sve      1024  2019-07-29_11-34-25
+7          512      7829248         100.0   gcc8.2    bude-sve      1024  2019-07-29_11-34-25

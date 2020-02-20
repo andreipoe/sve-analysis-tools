@@ -1,0 +1,8 @@
+In[4]: stream.sample(5)
+Out[4]:
+    application     count       op      optype svewidth   timestamp  version
+670      stream   6291456     st1d   mem-write      512  2019-07-04  cce9.0a
+814      stream         1      sel     control     1024  2019-07-16  cce9.0a
+751      stream  20971534  whilelo     control      128  2019-07-16   gcc8.2
+784      stream   2359296     st1d   mem-write     1024  2019-07-16  arm19.0
+748      stream         1    index  arithmetic      128  2019-07-16  cce9.0a

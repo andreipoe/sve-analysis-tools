@@ -1,0 +1,8 @@
+In [17]: analyze[analyze.application.str.contains('fmm')].sample(5)
+Out[17]:
+   version application svewidth  type     total       sve   non-sve  sve-contiguous  sve-contig-alllanes  sve-contig-dislanes  sve-gather-scatter  sve-gat-scat-alllanes sve-gat-scat-dislanes           timestamp
+55 arm19.0 fmm.omp-sve      256 store  17200476    343608  16856868          343608               229072               114536                   0                      0                     0 2019-07-29_15-05-42
+56 arm19.0 fmm.omp-sve      256 total  64912773  20016992  44895781        14977408             10295348              4682060             5039584                5039584                     0 2019-07-29_15-05-42
+58  gcc8.2 fmm.omp-sve      256 store  13705082         0  13705082               0                    0                    0                   0                      0                     0 2019-07-29_15-05-42
+63  gcc8.2 fmm.omp-sve      512  load  41241134   8983404  32257730         8983404              4072552              4910852                   0                      0                     0 2019-07-29_15-08-35
+65  gcc8.2 fmm.omp-sve      512 total  54946216   8983404  45962812         8983404              4072552              4910852                   0                      0                     0 2019-07-29_15-08-35
